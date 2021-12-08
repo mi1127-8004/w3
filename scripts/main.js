@@ -22,7 +22,7 @@ let myHeading = document.querySelector('h1');
 console.log(myHeading);
 
 function setUserName() {
-  let myName = prompt('名前を入力してください.');
+  let myName = prompt('名前を入力してください');
   //promptは組み込みの関数。promptウインドウを表示してユーザ入力をさせる
   
   if(!myName) {
