@@ -9,7 +9,7 @@ let myImage = document.querySelector('img');
 myImage.onclick = function　() {
   let mySrc = myImage.getAttribute('src');
   if(mySrc === 'images/firefox-icon.png') {
-    myImage.setAttribute ('src','images/firefox2.png');
+    myImage.setAttribute ('src','images/myimage.png');
   } else {
     myImage.setAttribute ('src','images/firefox-icon.png');
   }
@@ -22,7 +22,7 @@ let myHeading = document.querySelector('h1');
 console.log(myHeading);
 
 function setUserName() {
-  let myName = prompt('Please enter your name.');
+  let myName = prompt('名前を入力してください.');
   //promptは組み込みの関数。promptウインドウを表示してユーザ入力をさせる
   
   if(!myName) {
